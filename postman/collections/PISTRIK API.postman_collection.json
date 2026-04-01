@@ -8002,7 +8002,7 @@
                             }
                           ],
                           "cookie": [],
-                          "body": "{\n    \"errors\": [\n        {\n            \"path\": [\n                \"waste_action_id\"\n            ],\n            \"message\": \"Toimingu liik on vigane, lubatud väärtused on: INITIAL, IN_GENERATED, IN_MOISTURE_INCREASE, IN_OTHER_NOS, OUT_RECOVERY, OUT_DISPOSAL, OUT_MOISTURE_LOSS, OUT_OTHER_NOS, OUT_OTHER_HANDLING_LOSS, OUT_OTHER_UNSPECIFIED\",\n            \"code\": \"validation\",\n            \"uuid\": null\n        }\n    ],\n    \"error_request_id\": \"7f9572d7-db1e-4367-9b14-b3881e8d0a37\"\n}"
+                          "body": "{\n    \"errors\": [\n        {\n            \"path\": [\n                \"waste_action_id\"\n            ],\n            \"message\": \"Toimingu liik on vigane, lubatud väärtused on: IN_GENERATED, IN_MOISTURE_INCREASE, IN_OTHER_NOS, OUT_RECOVERY, OUT_DISPOSAL, OUT_MOISTURE_LOSS, OUT_OTHER_NOS\",\n            \"code\": \"validation\",\n            \"uuid\": null\n        }\n    ],\n    \"error_request_id\": \"7f9572d7-db1e-4367-9b14-b3881e8d0a37\"\n}"
                         },
                         {
                           "name": "422 - Balance record creation for IN_OTHER_NOS failed due to mandatory missing comment describing the reason of waste weight increase",
